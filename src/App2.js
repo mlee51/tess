@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import './index.css'
 import Mobilepanel from './components/MobilePanel'
-import pdf from './michaelleeresume.pdf'
+import pdf from './michaelleeresume2021.pdf'
 import data from './cata.json';
 import biodata from './bio.json';
 

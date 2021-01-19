@@ -35,7 +35,7 @@
             ]
         },
         {
-            "desc": "Various 3D Projects exploring form and texture",
+            "desc": "Personal 3D Projects",
             
           
             "images": [
@@ -46,7 +46,7 @@
         },
        
         {
-            "desc": "Commissioned realtime audio-reactive visual promotions for Sum'n Lyte 3, by ADRIIIAN.",
+            "desc": "Commissioned realtime audio-reactive promotions for artist ADRIIIAN. Made with Unity and real-time raytracing",
             "label": [
                 "vimeo",
                 "ADRIIIAN"
@@ -79,7 +79,7 @@
             ]
         },
         {
-            "desc": "3D Inspired Apparel",
+            "desc": "3D inspired apparel, splash site created with react-three-fiber",
             "label": [
                 "object and thing"
             ],

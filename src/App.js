@@ -4,7 +4,7 @@ import Imagegrid from './Img'
 import styled from 'styled-components'
 import './index.css'
 import Side from './components/Sidelinks'
-import pdf from './michaelleeresume.pdf'
+import pdf from './michaelleeresume2021.pdf'
 import Icons from './components/Social'
 import Itemb from './Itembio'
 
