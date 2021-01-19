@@ -2,11 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import App2 from './App2';
 import reportWebVitals from './reportWebVitals';
+
+
+var mobile = false;
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+  mobile = true;
+}else{
+  mobile = false;
+}
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {mobile? <App2/>:<App />}
+   
   </React.StrictMode>,
   document.getElementById('root')
 );

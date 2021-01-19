@@ -15,10 +15,7 @@ background-color: black;
 color: white;
 `
 
-const Simg = styled.img`
-width: 100%;
 
-`
 const Desc = styled.div`
 font-family: 'Source Code Pro', monospace;
 margin-left: 4%;
@@ -42,7 +39,7 @@ export default function Panel(props){
     
     
     var settings = {
-        dots: false,
+      dots: false,
       infinite: true,
       speed: 600,
       autoplay: true,
@@ -55,12 +52,15 @@ export default function Panel(props){
     return(
 
         <Rdiv third={props.third} style={rightpeek}>
-        <Slider {...settings}>
+          {props.images &&
+          
+          <Slider {...settings}>
         {props.images.map((i)=>
           <img src={i} />
         )}
 
-        </Slider>
+        </Slider>}
+        
         <Desc>
         {props.desc}
         </Desc>

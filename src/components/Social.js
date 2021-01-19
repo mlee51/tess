@@ -7,14 +7,7 @@ const Backpanel = styled.div`
 position: fixed;
 bottom: 5%;
 `
-const Flex = styled.div`
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: start;
-align-items: center;
-align-content: space-around;
-`
+
 
 
 export default function Icons()

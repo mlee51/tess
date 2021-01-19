@@ -2,26 +2,13 @@ import React, { useRef, useState } from 'react';
 import styled, { css } from 'styled-components'
 import {useTransition, useSpring, config, animated} from 'react-spring';
 import Panel from './components/Sidepanel';
+import bio from './bio.json';
 
 
-const Iwrap = styled(animated.div)`
-display: flex;
-justify-content: center;
-padding: 0;
-`
-const Simg = styled(animated.img)`
-width: 33.33vw;
-height: 33.33vw;
-filter: grayscale(100%);
-object-fit: cover;
-`
 
-const Sdiv = styled(animated.div)`
-position: absolute;
-`
 
 const Lb = styled(animated.div)`
-    z-index: 3;
+    z-index: 6;
     position: fixed;
     top: 0;
     left: 33.33vw;
@@ -41,8 +28,7 @@ width:${props => props.third? '50%' : '25%'};
 height:100%;
 //background-color: red;
 `
-export default function Itemb(props) {
-    const [hovered, setHover] = useState(false);
+export default function Itemb() {
     const [lightbox, setLightbox] = useState(false);
 
     const hideLightbox = () =>{
@@ -51,11 +37,6 @@ export default function Itemb(props) {
     }
 
 
-    const big = useSpring({
-      filter: hovered ? "saturate(100%)" : "saturate(0%)",
-      
-      config: config.slow
-    });
 
     const blur = useSpring({
         backdropFilter: lightbox? "blur(5px)" : "blur(0px)",
@@ -69,18 +50,13 @@ export default function Itemb(props) {
 
     return(
         <>
-        
-        <Iwrap onPointerOver={(e) => setHover(true)}
-       onPointerOut={(e) => setHover(false)} 
-       onClick={() => setLightbox(true)}  >
-        
-        </Iwrap>
         <Lb style={blur}  >
             <Clickout third={ratio} onClick={hideLightbox}/>
+            <div>hello</div>
 
             <Panel third={ratio}
-             images={["./tempforever/1.jpg"]}
-             desc={"poopman"}
+           
+             desc={bio.text}
              />
             </Lb>
         </>

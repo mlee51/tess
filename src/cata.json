@@ -91,23 +91,6 @@
                 "./ot/1.jpg"
             ]
 
-        },
-        {
-            "desc": "Created an artist link site for Dolphin's media and platforms. Made with React-three-fiber.",
-            "label": [
-                "dolphinuppercut.com"
-            ],
-            "link": ["https://dolphinuppercut.com"           
-            ],
-            "images": [
-                "./dolphin/1.jpg",
-                "./dolphin/3.jpg",
-                "./dolphin/2.jpg"
-            ]
         }
-        
-    
-        
-
     ]
 }

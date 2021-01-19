@@ -1,9 +1,7 @@
-import logo from './logo.svg'
 import './App.css'
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import Imagegrid from './Img'
 import styled from 'styled-components'
-import {useSpring, animated} from 'react-spring'
 import './index.css'
 import Side from './components/Sidelinks'
 import pdf from './michaelleeresume.pdf'
@@ -21,10 +19,7 @@ const Flex = styled.div`
   align-content: start
   overflow: hidden;
 `
-const Flexitem = styled.div`
-  flex: 1 0 auto;
-  margin: 2px;
-`
+
 
 const Ldiv = styled.div`
 font-family: 'Source Code Pro', monospace;

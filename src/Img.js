@@ -7,7 +7,7 @@ import data from './cata.json';
 const Grid = styled.div`
 display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   //gap: 2% 2%;
   //background-color: red;
   width: 50%;
