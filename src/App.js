@@ -58,6 +58,7 @@ function App() {
       <br/>
       .xyz
       <br/>
+      
       <br/>
       <div onClick={() => setActive(!active)} >
       <Side text={"bio"} />

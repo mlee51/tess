@@ -12,7 +12,7 @@ padding: 0;
 const Simg = styled(animated.img)`
 width: 33.33vw;
 height: 33.33vw;
-filter: grayscale(100%);
+//filter: grayscale(100%);
 object-fit: cover;
 `
 
@@ -74,7 +74,7 @@ export default function Item(props) {
        onPointerOut={(e) => setHover(false)} 
        onClick={() => setLightbox(true)}  >
           
-        <Simg  style={big} src={props.cell.images[0]}  />
+        <Simg  src={props.cell.images[0]}  />
         
         </Iwrap>
         {lightbox ? <Lb style={blur}  >

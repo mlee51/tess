@@ -51,7 +51,7 @@ export default function Panel(props){
 
     return(
 
-        <Rdiv third={props.third} style={rightpeek}>
+        <Rdiv third={props.third}>
           {props.images &&
           
           <Slider {...settings}>
