@@ -58,9 +58,8 @@ export default function Item(props) {
     });
 
     const blur = useSpring({
-        backdropFilter: lightbox? "blur(5px)" : "blur(0px)",
-        backgroundColor: lightbox? "rgba(0,0,0, 0.7)" : "rgba(0,0,0,0)",
-        config: config.fast
+        backdropFilter: lightbox? "blur(0px)" : "blur(0px)",
+        backgroundColor: lightbox? "rgba(0,0,0, 0.7)" : "rgba(0,0,0,0)"
     });
 
     const ratio = window.innerWidth/window.innerHeight > 2 ? true : false;

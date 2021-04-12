@@ -1,7 +1,7 @@
 {
     "Projects":[
         {
-            "desc": "Created an infinite light tunnel for Antib0dy Club, a web-based open world video chatting platform centered around artistry, live performance, and inclusion. Developed shaders for webcam avatar displays, custom rooms, and other assets with OpenGL and three.js. Other responsibilities include programming and animating interactive splash pages.",
+            "desc": "Created real-time interactive webpages for The Umbrella, a NYC based creative studio focused on creating experiences that connect people. Created an infinite light tunnel splash page, shaders, and other assets for Antibody Club, a web-based open world video chatting platform. Also created several 3D virtual galleries to exhibit NFTs. ",
             "label": ["Antib0dy Club" , "gh-pages"],
             "link": ["https://antib0dy.club/", "https://mlee51.github.io/absplashscreen/"],
             "images": 
@@ -9,7 +9,8 @@
                     
                     "./ab/2.jpg",
                     "./ab/3.jpg",
-                    "./ab/7.jpg"
+                    "./ab/7.jpg",
+                    "./ab/4.gif"
                     
             ]
         },
