@@ -2,15 +2,16 @@
     "Projects":[
         {
             "desc": "Created real-time interactive webpages for The Umbrella, a NYC based creative studio focused on creating experiences that connect people. Created an infinite light tunnel splash page, shaders, and other assets for Antibody Club, a web-based open world video chatting platform. Also created several 3D virtual galleries to exhibit NFTs. ",
-            "label": ["Antib0dy Club" , "gh-pages"],
-            "link": ["https://antib0dy.club/", "https://mlee51.github.io/absplashscreen/"],
+            "label": ["The Umbrella" ,"Antib0dy Club" , "Tunnel", "Gallery"],
+            "link": ["https://www.theumbrella.nyc/","https://antib0dy.club/", "https://mlee51.github.io/absplashscreen/", "https://antib0dy.club/JamesMoore/"],
             "images": 
             [
                     
                     "./ab/2.jpg",
+                    "./ab/4.gif",
                     "./ab/3.jpg",
-                    "./ab/7.jpg",
-                    "./ab/4.gif"
+                    "./ab/7.jpg"
+                  
                     
             ]
         },
