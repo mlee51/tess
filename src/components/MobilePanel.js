@@ -8,13 +8,16 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 const Desc = styled.div`
-font-family: 'Source Code Pro', monospace;
+font-family: 'Nunito Sans', sans-serif;
+font-weight: 600;
 margin: 4%;
-font-size: 2.5vw;
-color: white;
+font-size: 3.8vw;
+color: #C0C0C0;
+
 `
 const Sa = styled.a`
-color: white;
+color: #C0C0C0;
+
 margin-right: 2em;
 `
 
@@ -25,7 +28,7 @@ export default function Mobilepanel(props){
       infinite: true,
       speed: 600,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 8000,
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false
@@ -36,9 +39,11 @@ export default function Mobilepanel(props){
     return(
         <div>
         <Slider {...settings}>
-        {props.project.images.map((i)=>
+        {props.project.images && props.project.images.map((i)=>
           <img src={i} />
         )}
+        {props.project.videos && props.project.videos.map((i)=>
+          <video autoplay="true" muted="true" loop="true" playsinline="true" src={i} />)}
 
         </Slider>
         <Desc>
